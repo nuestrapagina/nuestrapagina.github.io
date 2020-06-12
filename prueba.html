@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1">
+    <title>SALUDANDO</title>
+    <header>
+    <div class="container">
+     <h1 class="logo"></h1>
+     <nav>
+       <ul>
+         <li><a href="prueba.html">INICIO</a></li>
+         <li><a href="fotos.html">FOTOS</a></li>
+         <li><a href="historia.html">HISTORIAS</a></li>
+         <li><a href="#">SALIR</a></li>
+       </ul>
+     </nav>
+   </div>
+ </header>
+  </head>
+  <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <font color="white">
+    <div id="inicio">
+    <script type="text/javascript">
+    var nombre="ESPECTADOR";
+    document.write("HACKEANDO TU SISTEMA!!<br> HOLA " +nombre +"<br> COMO ESTAS? <br>SOY MILTON<br>");
+    </script>
+    </div>
+    </font>
+    <script>
+    function Saludar(){
+    var saludo = "";
+    var tiempo= new Date().getHours();
+    if(tiempo < 8)
+    {
+      saludo="BUENOS DIAS, ESPERO HAYAS DESCANSADO LO SUFICIENTE";
+    }
+    else if(tiempo < 10)
+    {
+      saludo="NO MAMES!!....ES JUSTO LA HORA DEL DESAYUNO";
+    }
+    else if(tiempo < 12)
+    {
+      saludo="DIME QUE ESTAS PREPARANDO ALGO RICO PARA ALMORZAR -.-";
+    }
+    else if(tiempo < 14)
+    {
+      saludo="ME GUSTARIA SABER QUE HUBO DE ALMUERZO HOY :)";
+    }
+    else if(tiempo < 16)
+    {
+      saludo="A ESTA HORA DA PEREZA, PORQUE NO CHECAS LAS FOTOS?";
+    }
+    else if(tiempo < 18)
+    {
+      saludo="WOOW, YA ES DE TARDE....DEBERIAS VER SERIES O JUGAR UN POCO PARA DISTRAERTE";
+    }
+    else if(tiempo < 20)
+    {
+      saludo="SUFICIENTE ENTRETENIMIENTO POR HOY, TE VAS HACER LOC@";
+    }
+    else if(tiempo < 21)
+    {
+      saludo="AUN NO HE MERENDADO! :c Y TU?";
+    }
+    else if(tiempo < 22)
+    {
+      saludo="AHORITA PEGA UNA BUENA HISTORIA CON CANGUIL :D";
+    }
+    else {
+      saludo = "QUE HACES DESPIERT@! :C , TE PARECE SI VAS A DORMIR?";
+    }
+    document.getElementById("saludo").innerHTML = saludo;
+    }
+    </script>
+    <div id="boton">
+    <button onclick="Saludar()">
+      <link rel="stylesheet" type="text/css" href="corazon.css">
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      PRESIONAME
+    </link>
+      </a>
+  </button>
+  </div>
+  <font color="yellow">
+    <p id="saludo"> </p>
+  </font>
+  <center>
+  <div class="box">
+    <div class="imgBx">
+      <img src="milton0.jpeg">
+    </div>
+    <div class="content">
+      <center>
+      <h2>MILTON ELIZALDE<br><span>TU COSHITO</span></h2>
+      </center>
+    </div>
+  </div>
+      </center>
+    <center>
+  <div class="box">
+    <div class="imgBx">
+      <img src="milton01.jpeg">
+    </div>
+    <div class="content">
+      <center>
+      <h2>KAREN STEPHANY<br><span>MI COSHITA</span></h2>
+      </center>
+    </div> 
+  </div>
+    </center>
+    <center>
+    <div id="foto">
+      <img src="milton.jpeg">
+    </div>
+    </center>
+</html>
